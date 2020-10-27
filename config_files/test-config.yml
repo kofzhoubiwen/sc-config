@@ -2,19 +2,19 @@ spring:
   profiles:
     active: test
 
-server:
-  port: 8121
-
 ---
-  
 spring:
   profiles: dev
   application:
     name: test-spring-cloud-config-dev
+server:
+  port:12345
+
     
 ---
 spring:
   profiles: test
   application:
     name: test-spring-cloud-config-test
-    
+server:
+  port: 54321
