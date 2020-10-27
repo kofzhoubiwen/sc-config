@@ -1,14 +1,14 @@
 spring:
   profiles:
     active: test
-
+    
 ---
 spring:
   profiles: dev
   application:
     name: test-spring-cloud-config-dev
 server:
-  port:12345
+  port: 12345
 
     
 ---
